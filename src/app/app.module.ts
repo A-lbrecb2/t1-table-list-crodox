@@ -6,10 +6,11 @@ import { RouterModule } from '@angular/router';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatButtonModule } from '@angular/material/button';
 import { AppComponent } from './app.component';
-
+import { TableListComponent } from '../../src/app/table-list/table-list.component';
 @NgModule({
   declarations: [
     AppComponent,
+    TableListComponent,
   ],
   imports: [
     BrowserModule,
